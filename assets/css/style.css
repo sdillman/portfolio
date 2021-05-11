@@ -1206,6 +1206,16 @@ blockquote h6 {
     box-shadow: none;
 }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #021912;
+    border-color: #021912;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(6 79 57 / 50%);
+}
+
 .btn-primary {
     background-color: #f26c4f;
     border-color: #f26c4f;
